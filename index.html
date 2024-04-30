@@ -6,17 +6,33 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Slider</title>
 </head>
+<link rel="stylesheet" href="index.css">
+
+<link rel="stylesheet"
+	href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0">
+<script src="index.js" defer></script>
 
 <body>
 	<div class="container">
 		<div class="slider-wrapper">
+			<button id='prev-slide' class="slide-button material-symbols-rounded">chevron_left</button>
 			<div class="image-list">
-				<img src="" alt="" class="image-item">
+				<img src="./image/mem-1.webp" alt="mem-1" class="image-item">
+				<img src="./image/mem-2.webp" alt="mem-2" class="image-item">
+				<img src="./image/mem-3.webp" alt="mem-3" class="image-item">
+				<img src="./image/mem-4.webp" alt="mem-4" class="image-item">
+				<img src="./image/mem-5.webp" alt="mem-5" class="image-item">
+				<img src="./image/mem-6.webp" alt="mem-6" class="image-item">
+			</div>
+			<button id='next-slide' class="slide-button material-symbols-rounded">chevron_right</button>
+
+		</div>
+		<div class="slider-scrollbar">
+			<div class="scrollbar-track">
+				<div class="scrollbar-thumb"></div>
 			</div>
 		</div>
-
 	</div>
-
 </body>
 
 </html>
